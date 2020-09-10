@@ -59,7 +59,7 @@
           <div class="container">
             <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-            <h1 class="brand"><a href="#top">上大寻物平台</a></h1>
+            <h1 class="brand" style="margin-left: 10px;color: red"><a href="#top">校园寻物平台</a></h1>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <nav class="pull-right nav-collapse collapse">
               <ul id="menu-main" class="nav">
@@ -344,7 +344,7 @@
     <section id="return" class="single-page scrollblock">
       <div class="container" id="lose_thing">
         <div class="align"><i class="icon-cog-circled"></i></div>
-        <h1>Return</h1>
+        <h1>Return To...</h1>
         <!-- Four columns -->
         <div class="row" >
            <article class="span4 post" v-for="loser in losers">
